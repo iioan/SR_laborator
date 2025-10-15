@@ -5,10 +5,10 @@ Ioan Teodorescu - EGOV
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `clean_name` | string | Normalized album identifier (lowercase, hyphenated) |
-| `album` | string | Full album title |
-| `release_year` | string | Year the album was released |
-| `genre` | string | Music genre classification |
+| `clean_name` | string | Identificator normalizat al albumului (litere mici, cu cratime) |
+| `album` | string | Titlul complet al albumului |
+| `release_year` | string | Anul in care a fost lansat albumul |
+| `genre` | string | Clasificarea genului muzical |
 
 albumele sunt importate in recombee cu urmatoarea structura:
 

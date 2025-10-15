@@ -15,3 +15,5 @@ albumele sunt importate in recombee cu urmatoarea structura:
 - **id al elementului**: `album-{index}` (ex.: `album-0`, `album-1`)
 - **proprietati**: toate campurile din fisierul .csv sunt stocate ca proprietati ale elementului
 - **dimensiune lot**: 100 de elemente per API call
+
+codul este disponibil aici: https://github.com/iioan/SR_laborator/tree/main/SR_lab/SR_lab

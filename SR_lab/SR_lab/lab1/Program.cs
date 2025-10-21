@@ -4,15 +4,16 @@ using CsvHelper.Configuration;
 using Recombee.ApiClient;
 using Recombee.ApiClient.ApiRequests;
 using Recombee.ApiClient.Util;
-using SR_lab;
+
+using SR_lab.lab1;
 
 class Program
 {
     static async Task Main()
     {
         var client = new RecombeeClient(
-            "ioanteo-dev",
-            "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "",
+            "",
             region: Region.EuWest);
 
         using var reader = new StreamReader("rolling_stone.csv");

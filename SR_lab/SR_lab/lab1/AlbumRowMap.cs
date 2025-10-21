@@ -1,6 +1,6 @@
 ﻿using CsvHelper.Configuration;
 
-namespace SR_lab;
+namespace SR_lab.lab1;
 
 public sealed class AlbumRowMap : ClassMap<AlbumRow>
 {

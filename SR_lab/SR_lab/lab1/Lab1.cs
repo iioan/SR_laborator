@@ -7,15 +7,10 @@ using Recombee.ApiClient.Util;
 
 using SR_lab.lab1;
 
-class Program
+class Lab1
 {
-    static async Task Main()
+    public static async Task Run(RecombeeClient client)
     {
-        var client = new RecombeeClient(
-            "",
-            "",
-            region: Region.EuWest);
-
         using var reader = new StreamReader("rolling_stone.csv");
         using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
 

@@ -13,13 +13,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="rolling_stone.csv">
+      <None Update="lab1\rolling_stone.csv">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="lab2\" />
     </ItemGroup>
 
 </Project>
